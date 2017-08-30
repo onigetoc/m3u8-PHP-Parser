@@ -30,7 +30,7 @@ $url = $_GET["url"];
 if(isset($url)) {
   $m3ufile = file_get_contents($url);
 } else {
-  $m3ufile = file_get_contents('http://pastebin.com/raw/QtUHJ78r');
+  $m3ufile = file_get_contents('https://pastebin.com/raw/t1mBJ2Yi');
 }
 
 //$re = '/#(EXTINF|EXTM3U):(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
@@ -45,10 +45,6 @@ $m3ufile = str_replace('tvg-id', 'id', $m3ufile);
 //$m3ufile = str_replace('tvg-name', 'name', $m3ufile);
 $m3ufile = str_replace('tvg-name', 'author', $m3ufile);
 $m3ufile = str_replace('group-title', 'group', $m3ufile);
-
-//print_r($m3ufile);
-
-//$m3ufile = str_replace(' ', '_', $m3ufile); // FOR GROUP
 
 preg_match_all($re, $m3ufile, $matches);
 
