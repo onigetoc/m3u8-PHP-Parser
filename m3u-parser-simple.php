@@ -49,8 +49,6 @@ preg_match_all($re, $m3ufile, $matches);
 $items = array();
 
  foreach($matches[0] as $list) {
-    
-     //echo "$list <br>";
 	 
    preg_match($re, $list, $matchList);
 
