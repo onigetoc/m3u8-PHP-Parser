@@ -12,7 +12,7 @@ $url = $_GET["url"];
 if(isset($url)) {
   $m3ufile = file_get_contents($url);
 } else {
-  $url = "http://pastebin.com/raw/QtUHJ78r";
+  $url = "https://pastebin.com/raw/t1mBJ2Yi";
   $m3ufile = file_get_contents($url);
 }
 
