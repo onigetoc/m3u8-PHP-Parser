@@ -23,8 +23,7 @@ function getPlaylists(playlists) {
     method: 'GET',
     dataType: 'jsonP',
     data: {
-      url: playlists,
-      //url: 'https://www.rt.com/rss',
+      url: playlists
     }
   }).done(function (data) {
     //if(data.status != 'ok'){ throw data.message; }
