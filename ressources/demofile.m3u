@@ -1,0 +1,24 @@
+#EXTM3U
+#EXTINF:0 tvg-id="RrokumTV.al" aspect-ratio="16:9" tvg-name="RrokumTV.al" tvg-language="Albanian/Kosovo" tvg-country="KS" tvg-logo="https://2.bp.blogspot.com/-adXhlGiHqxw/WSGCBl9Y8LI/AAAAAAAAD5Q/-t48sLv989Uxb5hgB0b38QlfTdoAE576ACLcB/s1600/tvrrokum.png" group-title="TVSHQIP",Rrokum
+http://82.114.65.202:1935/live/rrokumtv/playlist.m3u8
+
+#EXTINF:0 tvg-id="TVJUG.AL" tvg-name="TVJUG.AL" tvg-language="Albanian/Kosovo" tvg-country="AL" tvg-logo="https://4.bp.blogspot.com/-LXFMStwz6tI/WSGLzk0QgVI/AAAAAAAAD6I/T-rFp4KD_c4zbCRN9hGrjy_jS2nmXgPJwCLcB/s1600/tvjug.png" group-title="TVSHQIP",JTV
+http://84.20.77.50:554/live/rtmp.stream/playlist.m3u8
+
+#EXTINF:0 tvg-name="ALBUKTV.AL" tvg-language="Albanian/Kosovo" tvg-country="UK" tvg-id="ALBUKTV.AL" tvg-logo="https://2.bp.blogspot.com/-JtTZ7LDR_Ts/WSGB0Eh_DLI/AAAAAAAAD4I/ctrBMd8kIR4fQsyHZFlt8p7r3cYG_OeIQCLcB/s1600/tvalbuk1.png" group-title="TVSHQIP",AlbUK 1
+http://188.138.17.8:1935/albuk/albuk.stream/playlist.m3u8
+
+#EXTINF:0 tvg-name="ALBMOVIE.AL" tvg-language="Albanian/Kosovo" tvg-country="UK" tvg-id="ALBMOVIE.AL" tvg-logo="https://2.bp.blogspot.com/-0wmMRiRLsY4/WSGBzZ1dKXI/AAAAAAAAD4E/4CjH274jLKs2OQkKnkW_zDlhlSX8p7_fgCLcB/s1600/tvalbmovie.png" group-title="TVSHQIP",AlbMovie
+http://188.138.17.8:1935/albuk/albukplus.stream/playlist.m3u8
+
+#EXTINF:0 tvg-name="ALBMUSIC.AL" tvg-language="Albanian/Kosovo" tvg-country="UK" tvg-id="ALBMUSIC.AL" tvg-logo="https://4.bp.blogspot.com/-Ily2-rd6c90/WSGB2tBwfpI/AAAAAAAAD4Q/Psqk00WfpjsehfB1trf8l_zdAMySUxQvACLcB/s1600/tvalbusic.png" group-title="TVSHQIP",AlbMusic
+http://albukhd.dyndns.tv:1935/albuk/albmus.stream/playlist.m3u8
+
+#EXTINF:0 tvg-name="OraNews.al" tvg-language="Albanian/Kosovo" tvg-country="AL" tvg-id="OraNews.al" tvg-logo="https://2.bp.blogspot.com/-nG9yxIrl5pk/WSGL2GT-ojI/AAAAAAAAD6U/OuCPNsfZzoYTCi92L3JMNa_w1uCDFZdOgCLcB/s1600/tvora.png" group-title="TVSHQIP",OraNews
+http://109.236.81.91/hls/oranews/index.m3u8
+
+#EXTINF:0 tvg-name="KlanKosova.al" tvg-language="Albanian/Kosovo" tvg-country="KS" tvg-id="KlanKosova.al" tvg-logo="https://2.bp.blogspot.com/-y8QY6YXR8MM/WSGBxlph8oI/AAAAAAAAD30/5Z4gbuAK9LwctoK_x4-PegqxpyGIguK8ACLcB/s1600/tklankosova.png" group-title="TVSHQIP",Klan
+http://stream2.itprishtina.com:90/klanks/index.m3u8
+
+#EXTINF:0 tvg-name="Tetova.mk" tvg-language="Albanian/Kosovo" tvg-country="KS" tvg-id="Tetova.mk" tvg-logo="https://2.bp.blogspot.com/-RqDrazlvsPY/WSGL3G2ppSI/AAAAAAAAD6c/K3ZFZRqJanwHdW-S6wcLLoZS06EzwODbQCLcB/s1600/tvtetova.png" group-title="TVSHQIP",Tetova
+rtmp://ip.tvtetova.net:5119/live/tvtetova
