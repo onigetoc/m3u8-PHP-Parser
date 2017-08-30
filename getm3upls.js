@@ -1,7 +1,7 @@
 $(document).ready(function () {
   
   //load playist on ready
-  getPlaylists("http://pastebin.com/raw/QtUHJ78r");
+  getPlaylists("https://pastebin.com/raw/t1mBJ2Yi");
 
   $('#m3uForm').on('submit', function (e) {
     e.preventDefault();
@@ -19,7 +19,7 @@ function getPlaylists(playlists) {
   $('#result').html(''); // empty list
 
   $.ajax({
-    url: 'http://codesniff.com/scripts/GC-m3u-parser/GC-m3u-parser.php',
+    url: 'http://yourwebsite.com/GC-m3u-parser.php',
     method: 'GET',
     dataType: 'jsonP',
     data: {
