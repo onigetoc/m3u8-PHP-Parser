@@ -83,20 +83,10 @@ $items = array();
     
     foreach ($matches as $match) {
        $newdata[$match[1]] = $match[2];
-    }
-    
-    //array_push($newdata,$attribute);
-    //$newdata[] = $attribute;
-	 
-	 $items[] = $newdata;
-	 //$items[] = $matchList[2];
+    } 
+	$items[] = $newdata;
     
  }
-
-//   $globalitem =  array (
-//    //'ATTRIBUTE' => $matchList[2],
-//    'item' => $items
-//    );
 
 //$globalitem[$items] ;
 //$globalitems['item'] = $items;
