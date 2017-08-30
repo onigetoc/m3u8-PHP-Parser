@@ -1,6 +1,6 @@
 # m3u8 / m3u PHP Parser
 
-m3u8 PHP Parser.m3u8 parser to json
+m3u PHP Parser.m3u8 parser to json
 
 ## How to use it?
 
