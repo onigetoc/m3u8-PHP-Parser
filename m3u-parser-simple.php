@@ -30,7 +30,7 @@ $url = $_GET["url"];
 if(isset($url)) {
   $m3ufile = file_get_contents($url);
 } else {
-  $m3ufile = file_get_contents('http://pastebin.com/raw/QtUHJ78r');
+  $m3ufile = file_get_contents('https://pastebin.com/AJGb4D3Y');
 }
 
 //$re = '/#(EXTINF|EXTM3U):(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
