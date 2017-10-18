@@ -55,25 +55,24 @@ Markdown created with [Editconvert](http://codesniff.com/editconvert/)
 ```json
 [
   {
-    "title": "Rrokum",
-    "url": "http://82.114.65.202:1935/live/rrokumtv/playlist.m3u8",
-    "tvg-id": "RrokumTV.al",
-    "aspect-ratio": "16:9",
-    "tvg-name": "RrokumTV.al",
-    "tvg-language": "Albanian/Kosovo",
-    "tvg-country": "KS",
-    "tvg-logo": "https://2.bp.blogspot.com/-adXhlGiHqxw/WSGCBl9Y8LI/AAAAAAAAD5Q/-t48sLv989Uxb5hgB0b38QlfTdoAE576ACLcB/s1600/tvrrokum.png",
-    "group-title": "TVSHQIP"
+    "id": 1,
+    "tvtitle": "Newsmax TV",
+    "tvmedia": "http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+    "tvname": "Newsmax TV",
+    "tvlanguage": "English",
+    "tvcountry": "US",
+    "tvid": "Newsmax-TV",
+    "tvlogo": "http://i.imgur.com/Twkovic.gif",
+    "tvgroup": "Entertainment"
   },
   {
-    "title": "JTV",
-    "url": "http://84.20.77.50:554/live/rtmp.stream/playlist.m3u8",
-    "tvg-id": "TVJUG.AL",
-    "tvg-name": "TVJUG.AL",
-    "tvg-language": "Albanian/Kosovo",
-    "tvg-country": "AL",
-    "tvg-logo": "https://4.bp.blogspot.com/-LXFMStwz6tI/WSGLzk0QgVI/AAAAAAAAD6I/T-rFp4KD_c4zbCRN9hGrjy_jS2nmXgPJwCLcB/s1600/tvjug.png",
-    "group-title": "TVSHQIP"
-  }
+    "id": 2,
+    "tvtitle": "Infowars Live",
+    "tvmedia": "http://infowarslive-lh.akamaihd.net/i/infowarslivestream_1@353459/index_800_av-p.m3u8",
+    "tvlogo": "http://i.imgur.com/ODIWC6n.jpg",
+    "tvname": "Infowars",
+    "tvid": "Infowars",
+    "tvgroup": "News"
+  },
 ]
 ```
