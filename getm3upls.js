@@ -1,6 +1,6 @@
 $(document).ready(function () {
   
-  //load playist on ready
+  //load playlist on ready
   getPlaylists("https://pastebin.com/raw/t1mBJ2Yi");
 
   $('#m3uForm').on('submit', function (e) {
