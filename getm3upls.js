@@ -45,7 +45,8 @@ function getPlaylists(playlists) {
 
 }
 
-/* FOR DEMO */
+/* TEST TO LOAD VIDEO WITH VIDEOJS */
+/*
 $(document).on('click', '#result a', function (e) {
   e.preventDefault();
   
@@ -56,3 +57,4 @@ $(document).on('click', '#result a', function (e) {
   //alert(mediaUrl);
   loadStream(mediaUrl)
 });
+*/
