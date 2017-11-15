@@ -24,6 +24,8 @@ function getPlaylists(playlists) {
         });
     });
 }
+/* TEST TO LOAD VIDEO WITH VIDEOJS */
+/*
 $(document).on('click', '#result a', function(e) {
     e.preventDefault();
     var $this = $(this);
@@ -41,4 +43,5 @@ $(document).on('click', '#menu a', function(e) {
     var mediahref = $(this).attr('href');
     $('#playlists').val(mediahref);
     $("#envoyer").trigger("click");
-});
+})
+*/
