@@ -36,12 +36,4 @@ $(document).on('click', '#result a', function(e) {
     var mediaUrl = $this.attr('href');
     loadStream(mediaUrl)
 });
-$(document).on('click', '#menu a', function(e) {
-    e.preventDefault();
-    $('#menu a').removeClass('active');
-    $(this).addClass('active');
-    var mediahref = $(this).attr('href');
-    $('#playlists').val(mediahref);
-    $("#envoyer").trigger("click");
-})
 */
