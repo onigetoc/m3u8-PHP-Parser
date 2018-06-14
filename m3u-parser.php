@@ -12,7 +12,8 @@ $url = $_GET["url"];
 if(isset($url)) {
   $m3ufile = file_get_contents($url);
 } else {
-  $url = "https://pastebin.com/raw/t1mBJ2Yi";
+  //$url = "https://pastebin.com/raw/t1mBJ2Yi";
+  $url = "ttps://raw.githubusercontent.com/onigetoc/iptv-playlists/master/general/tv/us.m3u";
   $m3ufile = file_get_contents($url);
 }
 
