@@ -6,7 +6,8 @@ $url = $_GET["url"];
 if(isset($url)) {
   $m3ufile = file_get_contents($url);
 } else {
-  $m3ufile = file_get_contents('http://pastebin.com/raw/t1mBJ2Yi');
+  //$m3ufile = file_get_contents('http://pastebin.com/raw/t1mBJ2Yi');
+  $m3ufile = file_get_contents('https://raw.githubusercontent.com/onigetoc/iptv-playlists/master/general/tv/us.m3u');
 }
 
 //$m3ufile = str_replace('tvg-', 'tvg_', $m3ufile);
