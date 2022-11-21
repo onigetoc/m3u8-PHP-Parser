@@ -77,5 +77,5 @@ Markdown created with [Editconvert](http://codesniff.com/editconvert/)
 ]
 ```
 
-#### I used M3U8 PHP Parser on my website to load and play multiple IPTV Playlists (With ajax).
+#### I used M3U8 PHP Parser on my website to load and play multiple IPTV Playlists (With ajax) and with my Videojs [videojs-unmute](https://github.com/onigetoc/videojs-unmute) plugin to mute & unmute autoplayed video.
 Live Demo: [hlsiptv.com](https://hlsiptv.com/)
